@@ -1,0 +1,38 @@
+{
+  "name": "bdsm",
+  "version": "0.1.0",
+  "description": "Extracts dominant colors from bottom and top parts of an image.",
+  "main": "./src/bdsm.js",
+  "author": {
+    "name": "Andrew Kuznetsov",
+    "email": "cav@cav.ru",
+    "url": "https://github.com/cavinsmith/"
+  },
+  "contributors": [{
+    "name": "Dan Abramov",
+    "email": "dan.abramov@gmail.com"
+  }],
+  "dependencies": {
+    "imagemagick": "~0.1.3",
+    "bluebird": "~0.9.6",
+    "underscore": "~1.6.0"
+  },
+  "keywords": [
+    "border",
+    "color",
+    "common",
+    "dominant",
+    "image",
+    "imagemagick",
+    "palette",
+    "photo",
+    "picker",
+    "thief"
+  ],
+  "homepage": "https://github.com/cavinsmith/bdsm.js/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cavinsmith/bdsm.js.git"
+  }
+}
