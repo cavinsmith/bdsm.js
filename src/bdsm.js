@@ -101,7 +101,7 @@ function getHistogram(imageFile, direction, useBorderCropHeight, options) {
   var imArgs = [
     imageFile,
     '-auto-orient',
-    '-resize', resizeWidth + 'x' + resizeWidth + '>',
+    '-resize', resizeWidth + 'x' + resizeWidth,
     '-gravity' , direction,
     '-crop', resizeWidth + 'x' + cropHeight + '+0+0',
     '-colors', colorCount,
