@@ -99,7 +99,7 @@ function getHistogram(imageFile, direction, useBorderCropHeight, options) {
       optimizeHistogramWithOptions = _.partial(optimizeHistogram, _, options);
 
   var imArgs = [
-    imageFile,
+    imageFile + '[0]',
     '-auto-orient',
     '-resize', resizeWidth + 'x' + resizeWidth,
     '-gravity' , direction,
