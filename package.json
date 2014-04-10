@@ -1,6 +1,6 @@
 {
   "name": "bdsm",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Extracts dominant colors from bottom and top parts of an image.",
   "main": "./src/bdsm.js",
   "author": {
