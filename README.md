@@ -5,7 +5,7 @@ BDSM.js extracts dominant colors from the top and the bottom areas of an image.
 ### Quickstart
 
 ```
-npm install bdsm
+npm install bdsm@0.2.2 --save
 ```
 
 ```javascript
